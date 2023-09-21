@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+}
+
+body{
+	    background: rgb(30,0,77);
+}
+.tssks-table{
+    background: #ccc;
+    width: 90%;
+	margin-top:130px;
+}
+button{
+	 border: none;	
+	 font-size: 20px;
+	 box-shadow:0px 3px rgb(168,168,168,0.38);
+	  cursor: pointer;
+}
+button.circular{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   
+	
+}
+#tasks{
+	padding:20px;
+}
+.task{
+    display: flex;
+	margin:8px 0;
+    padding: 10px 8px;
+    background-color:#ffffffa8;
+    border-bottom: 1px solid #000;
+	transition:0.3s
+}
+.done{
+	background-color: rgb(158,253,160)
+}
+.task:hover{
+	 box-shadow:0px 3px 15px rgb(97,97,97,0.843)
+}
